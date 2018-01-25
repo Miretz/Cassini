@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD061A4D2019C53200353DE1 /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD061A4C2019C53200353DE1 /* CassiniViewController.swift */; };
 		BD2A922D2018D0A400AE0DDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A922C2018D0A400AE0DDF /* AppDelegate.swift */; };
 		BD2A92322018D0A400AE0DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2A92302018D0A400AE0DDF /* Main.storyboard */; };
 		BD2A92342018D0A400AE0DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2A92332018D0A400AE0DDF /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD061A4C2019C53200353DE1 /* CassiniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
 		BD2A92292018D0A400AE0DDF /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2A922C2018D0A400AE0DDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD2A92312018D0A400AE0DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				BD2A92432018DB7100AE0DDF /* oval.jpg */,
 				BD2A923E2018D0DF00AE0DDF /* SupportingFiles */,
 				BD2A92302018D0A400AE0DDF /* Main.storyboard */,
+				BD061A4C2019C53200353DE1 /* CassiniViewController.swift */,
 				BD2A92382018D0A400AE0DDF /* Info.plist */,
 			);
 			path = Cassini;
@@ -154,6 +157,7 @@
 				BD2A92402018D1B900AE0DDF /* ImageViewController.swift in Sources */,
 				BD2A922D2018D0A400AE0DDF /* AppDelegate.swift in Sources */,
 				BD2A92422018D70D00AE0DDF /* DemoURLs.swift in Sources */,
+				BD061A4D2019C53200353DE1 /* CassiniViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

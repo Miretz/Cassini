@@ -14,7 +14,7 @@ struct DemoURLs {
     
     static let stanford2 = URL(string: "https://upload.wikimedia.org/wikipedia/commons/5/55/Stanford_Oval_September_2013_panorama.jpg")
     
-    static var NASA: Dictionary<String,URL> {
+    static var NASA: Dictionary<String,URL> = {
         
         let NASAURLStrings = [
             "Cassini": "https://www.jpl.nasa.gov/images/cassini/20090202/pia03883-full.jpg",
@@ -29,6 +29,6 @@ struct DemoURLs {
         }
         
         return urls
-    }
+    }()
     
 }
